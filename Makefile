@@ -3,7 +3,7 @@ EXECUTABLES=main
 
 CC=gcc
 CFLAGS=-g -Wall
-LDFLAGS=
+LDFLAGS= -lpthread
 
 OBJS=$(SRCS:.c=.o)
 
