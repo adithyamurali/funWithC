@@ -4,6 +4,7 @@
 #include <stdbool.h>
 #include <sys/stat.h>
 #include <fcntl.h>
+#include <sys/types.h>
 
 #define EXIT_SUCCESS 0
 #define EXIT_FAILURE 1
@@ -23,7 +24,6 @@ bool read_write(int fd_read, int fd_write) {
 
 	return true;
 }
-
 
 int main(int argc, char * argv[]) {
 
